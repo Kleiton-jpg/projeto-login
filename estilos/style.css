@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #021E43;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 400px;
+}
+
+section#login {
+    background-color: white;
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+section#login > div#imagem {
+    width: 100%;
+    height: 180px;
+    background: url(../imagens/pexels-sean-whang-25006-804269.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+div#formulario {
+    padding: 15px;
+}
+
+div#formulario > h1 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #021E43;
+}
+
+div#formulario > p {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    background-color: #186B8C;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #14488C;
+}
+
+form a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #14488C;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+form a.botao:hover {
+    text-decoration: underline;
+}
+
+
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+    font-size: 1.1em;
+    padding: 12px;
+}
+
+form input[type="submit"] {
+    max-width: 300px;
+    margin: 10px auto;
+}
