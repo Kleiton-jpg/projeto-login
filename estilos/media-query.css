@@ -6,24 +6,23 @@
         background-image: linear-gradient(to top, #021E43, #C7A7F2, #6698F7);
     }
 
-    section#login {
-        width: 80%;
-        max-width: 700px;
+    main > section {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
         align-items: center;
-        min-height: 400px;
     }
 
     section#login > div#imagem {
-        width: 40%;
+        width: 50%;
         height: auto;
         background-size: cover;
     }
 
     section#login > div#formulario {
-        width: 60%;
-        padding: 20px;
+        width: 250px;
+        padding: 15px;
     }
 }
 
@@ -34,33 +33,12 @@
     }
 
     section#login {
-        width: 75%;
-        max-width: 1200px;
+        width: 900px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center;
-        min-height: 550px;
-        padding: 40px;
-        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+        min-height: 450px;
     }
-    
-    form input[type="email"],
-    form input[type="password"] {
-    font-size: 1.3em;
-    padding: 15px;
-    width: 90%;  /* Faz os campos ocuparem mais espaço */
-    max-width: 400px; /* Evita que fiquem exageradamente largos */
-}
-
-    form input[type="submit"] {
-    font-size: 1.2em;
-    padding: 15px;
-    width: 90%;
-    max-width: 350px;
-}
-
-
 
     section#login > div#imagem {
         width: 50%;

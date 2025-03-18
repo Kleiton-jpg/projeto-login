@@ -98,16 +98,3 @@ form a.botao {
 form a.botao:hover {
     text-decoration: underline;
 }
-
-
-form input[type="email"],
-form input[type="password"],
-form input[type="submit"] {
-    font-size: 1.1em;
-    padding: 12px;
-}
-
-form input[type="submit"] {
-    max-width: 300px;
-    margin: 10px auto;
-}
